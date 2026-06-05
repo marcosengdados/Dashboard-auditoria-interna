@@ -25,7 +25,7 @@ O resultado é um painel funcional que cobre **conformidade geral, consumo energ
 
 ## 📌 Roteiro de Visualizações
 
-![Página 1 — Gestão Ambiental · ISO 14001:2015](assets/1780624924851_Dashboard_AUDITORIA-INTERNA-imagens-0.jpg)
+![Página 1 — Gestão Ambiental · ISO 14001:2015](Dashboard_GERAL_ISO-imagens-0.jpg)
 
 ### 1 · KPIs Estratégicos (Painel Lateral)
 
@@ -88,7 +88,7 @@ Destaques:
 
 ---
 
-![Página 2 — Auditoria Interna · ISO 14001:2015](assets/1780624924852_Dashboard_AUDITORIA-INTERNA-imagens-1.jpg)
+![Página 2 — Auditoria Interna · ISO 14001:2015](Dashboard_AUDITORIA-INTERNA-imagens-1.jpg)
 
 ### 6 · KPIs de Auditoria (Painel Lateral — Página 2)
 
@@ -150,14 +150,12 @@ Detalhamento com colunas adicionais: **Custo R$, Prazo em Dias, Gravidade e Clá
 ## 📁 Estrutura do Repositório
 
 ```
-📂 sga-iso14001-powerbi/
+📂 Dashboard-auditoria-interna/
 ├── 📄 README.md
 ├── 📊 Dashboard_ISO14001.pbix
-├── 📂 data/
-│   └── SGA_InnovElectro_DadosProj.xlsx
-└── 📂 assets/
-    ├── 1780624924851_Dashboard_AUDITORIA-INTERNA-imagens-0.jpg
-    └── 1780624924852_Dashboard_AUDITORIA-INTERNA-imagens-1.jpg
+├── 📊 SGA_InnovElectro_DadosProj.xlsx
+├── 🖼️ Dashboard_GERAL_ISO-imagens-0.jpg
+└── 🖼️ Dashboard_AUDITORIA-INTERNA-imagens-1.jpg
 ```
 
 ---

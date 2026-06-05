@@ -1,17 +1,31 @@
 # 📊 Dashboard SGA · ISO 14001:2015 — InnovElectro
 
 > Sistema de Gestão Ambiental — Análise de Conformidade e Ações Corretivas  
-> Desenvolvido em **Power BI** com base em dados reais de auditorias internas.
+> Desenvolvido em **Power BI** · Base de dados fictícia estruturada para fins de estudo e portfólio.
 
 ---
 
 ## 🗂️ Sobre o Projeto
 
-Dashboard interativo para monitoramento do SGA de uma indústria do setor eletroeletrônico, cobrindo **conformidade geral, consumo energético, não conformidades, ações corretivas e investimento CAPEX** — tudo alinhado à estrutura da ISO 14001:2015 (cláusulas 6.1, 6.2, 9.1, 9.2 e 10.2).
+Este dashboard foi desenvolvido como projeto prático durante um curso de **Gestão Ambiental com foco na ISO 14001:2015**. Como o curso não fornecia uma base de dados estruturada para Power BI, optei por **construir o dataset do zero** — modelando cenários realistas de auditoria ambiental com base nos conceitos e requisitos normativos estudados.
+
+A empresa fictícia **InnovElectro** foi criada para contextualizar os dados: uma indústria do setor eletroeletrônico submetida a ciclos de auditoria interna, com não conformidades, ações corretivas, controle de CAPEX e metas de desempenho ambiental definidas conforme as cláusulas da norma.
+
+O processo envolveu três etapas principais:
+
+- **Modelagem dos dados** — estruturação do `.xlsx` com tabelas de ações corretivas, áreas auditadas, responsáveis, custos, prazos, gravidade e cláusulas ISO referenciadas
+- **Tratamento no Power BI** — relacionamentos entre tabelas, medidas DAX para conformidade, médias e totais de CAPEX
+- **Construção do dashboard** — duas páginas com foco em gestão ambiental e auditoria interna, cobrindo KPIs, gráficos de consumo energético, não conformidades e rastreabilidade de ações
+
+O resultado é um painel funcional que cobre **conformidade geral, consumo energético, não conformidades, ações corretivas e investimento CAPEX** — alinhado às cláusulas 6.1, 6.2, 9.1, 9.2 e 10.2 da ISO 14001:2015.
+
+> ⚠️ **Todos os dados são fictícios**, gerados exclusivamente para fins de aprendizado e demonstração técnica.
 
 ---
 
 ## 📌 Roteiro de Visualizações
+
+![Página 1 — Gestão Ambiental · ISO 14001:2015](assets/1780624924851_Dashboard_AUDITORIA-INTERNA-imagens-0.jpg)
 
 ### 1 · KPIs Estratégicos (Painel Lateral)
 
@@ -73,6 +87,8 @@ Destaques:
 - Rastreabilidade completa de responsáveis (TI + Manutenção, Eng. Infraestrutura, Coord. SGA, RH + SSMA)
 
 ---
+
+![Página 2 — Auditoria Interna · ISO 14001:2015](assets/1780624924852_Dashboard_AUDITORIA-INTERNA-imagens-1.jpg)
 
 ### 6 · KPIs de Auditoria (Painel Lateral — Página 2)
 
@@ -140,8 +156,8 @@ Detalhamento com colunas adicionais: **Custo R$, Prazo em Dias, Gravidade e Clá
 ├── 📂 data/
 │   └── SGA_InnovElectro_DadosProj.xlsx
 └── 📂 assets/
-    ├── dashboard_pagina1.png
-    └── dashboard_pagina2.png
+    ├── 1780624924851_Dashboard_AUDITORIA-INTERNA-imagens-0.jpg
+    └── 1780624924852_Dashboard_AUDITORIA-INTERNA-imagens-1.jpg
 ```
 
 ---
